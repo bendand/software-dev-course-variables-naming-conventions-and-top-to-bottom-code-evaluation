@@ -27,6 +27,8 @@ Things to reflect on:
 let name = "Alice";
 let numItems = 5;
 let price= 20;
-let statement = name + " bought " + numItems + " items for $" + price + ".";
+let store = "Macy's"
+let typeGift = 'wedding'
+let statement = name + " bought " + numItems + " items for $" + price + " from " + store + " as a " + typeGift + " gift.";
 
 console.log(statement);
